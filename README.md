@@ -18,6 +18,7 @@ Under **Environment** section, click **Details** to expand the environment optio
 - **DISPLAY** **localhost:10.0**
 - **LD_LIBRARY_PATH** **:/usr/local/qt6/lib/**
 - **XAUTHORITY** **/home/pi/.Xauthority**
+
 You need to replace **localhost:10.0** with what you got in above ssh session.
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/54e28040-fabd-41b0-8179-a4df4b629504)
 
