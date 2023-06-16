@@ -13,7 +13,6 @@ echo $DISPLAY
 
 **DO NOT CLOSE THE SSH SESSION DURING DEBUGGING.**
 
-## Accelerate remote debug
 Goto **Projects**
 Under **Run** section, on **X11 Forwarding** uncheck **Forward to local display**. 
 Under **Environment** section, click **Details** to expand the environment option. Add following variables:
@@ -26,6 +25,7 @@ You need to replace **localhost:10.0** with what you got in above ssh session.
 
 At this point, you can debug the application.
 
+## Accelerate remote debug
 On **Edit** select **Preference**. Then goto **Debugger** select **GDB**. Uncheck **Use Automatic Symbol Cache**. In **Additional Startup Commands** append following code.
 ```
 set solib-search-path /home/pmy/qt6/pi/lib:/home/pmy/qt6/pi/plugins/platforms:/home/pmy/qt6/pi/plugins/platforminputcontexts/:/home/pmy/qt6/pi/plugins/imageformats/
