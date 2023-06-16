@@ -1,5 +1,6 @@
-# Qt Creator Remote Debug Window Program On Raspberry Pi
-This page shows how to use Qt Creator to debug remotely on rpi and how to accelerate debugging. Youtube video.
+# Qt Creator Remote Debug Qt Widgets Application On Raspberry Pi
+This page shows how to use Qt Creator to debug Qt Widgets Application remotely on rpi and how to accelerate debugging. Youtube video.
+## Make remote debug work
 Start an ssh session by executing following command.
 ```
 ssh -X pi@192.168.6.218
@@ -12,6 +13,7 @@ echo $DISPLAY
 
 **DO NOT CLOSE THE SSH SESSION DURING DEBUGGING.**
 
+## Accelerate remote debug
 Goto **Projects**
 Under **Run** section, on **X11 Forwarding** uncheck **Forward to local display**. 
 Under **Environment** section, click **Details** to expand the environment option. Add following variables:
@@ -22,7 +24,7 @@ Under **Environment** section, click **Details** to expand the environment optio
 You need to replace **localhost:10.0** with what you got in above ssh session.
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/54e28040-fabd-41b0-8179-a4df4b629504)
 
-At this point, you can debug the program.
+At this point, you can debug the application.
 
 On **Edit** select **Preference**. Then goto **Debugger** select **GDB**. Uncheck **Use Automatic Symbol Cache**. In **Additional Startup Commands** append following code.
 ```
