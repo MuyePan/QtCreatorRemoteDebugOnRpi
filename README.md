@@ -3,7 +3,7 @@ This page shows how to use Qt Creator to debug Qt Widgets Application remotely o
 
 Click the follow image to view this tutorial on Youtube.
 
-[![Youtube video link](https://i9.ytimg.com/vi/D78W17jfX1Q/mqdefault.jpg)](//youtu.be/D78W17jfX1Q "Youtube Video")
+[![Youtube video link](https://i.ytimg.com/vi/D78W17jfX1Q/hqdefault.jpg)](//youtu.be/D78W17jfX1Q "Youtube Video")
 
 https://youtu.be/D78W17jfX1Q
 
