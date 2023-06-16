@@ -10,7 +10,7 @@ echo $DISPLAY
 ```
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/9ef3f271-46be-45a2-85a2-3df690224861)
 
-**DO NOT CLOSE THE SSH SESSION DURATION DEBUGGING.**
+**DO NOT CLOSE THE SSH SESSION DURING DEBUGGING.**
 
 Goto **Projects**
 Under **Run** section, on **X11 Forwarding** uncheck **Forward to local display**. 
