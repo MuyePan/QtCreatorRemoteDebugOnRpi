@@ -1,5 +1,12 @@
-# Qt Creator Remote Debug Qt Widgets Application On Raspberry Pi
-This page shows how to use Qt Creator to debug Qt Widgets Application remotely on rpi and how to accelerate debugging. Youtube video.
+# Debug Qt Widgets/Quick Application on RPI remotely with Qt Creator
+This page shows how to use Qt Creator to debug Qt Widgets Application remotely on rpi and how to accelerate debugging. 
+
+Click the follow image to view this tutorial on Youtube.
+
+[![Youtube video link](https://i9.ytimg.com/vi/D78W17jfX1Q/mqdefault.jpg)](//youtu.be/D78W17jfX1Q "Youtube Video")
+
+https://youtu.be/D78W17jfX1Q
+
 ## Make remote debug work
 Start an ssh session by executing following command.
 ```
