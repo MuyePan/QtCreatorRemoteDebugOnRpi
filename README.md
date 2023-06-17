@@ -3,6 +3,7 @@ This page shows how to use Qt Creator to debug Qt Widgets Application remotely o
 
 Click the follow image to view this tutorial on Youtube.
 
+## Make debugging work
 Goto **Projects**
 Under **Environment** section, click **Details** to expand the environment option. Add following variables:
 - **LD_LIBRARY_PATH** **:/usr/local/qt6/lib/**
