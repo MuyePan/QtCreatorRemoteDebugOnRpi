@@ -3,34 +3,12 @@ This page shows how to use Qt Creator to debug Qt Widgets Application remotely o
 
 Click the follow image to view this tutorial on Youtube.
 
-[![Youtube video link](https://i.ytimg.com/vi/D78W17jfX1Q/hqdefault.jpg)](//youtu.be/D78W17jfX1Q "Youtube Video")
-
-https://youtu.be/D78W17jfX1Q
-
-## Make remote debug work
-Start an ssh session by executing following command.
-```
-ssh -X pi@192.168.6.218
-```
-Get system environment variable DISPLAY.
-```
-echo $DISPLAY
-```
-![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/9ef3f271-46be-45a2-85a2-3df690224861)
-
-**DO NOT CLOSE THE SSH SESSION DURING DEBUGGING.**
-
 Goto **Projects**
-Under **Run** section, on **X11 Forwarding** uncheck **Forward to local display**. 
 Under **Environment** section, click **Details** to expand the environment option. Add following variables:
-- **DISPLAY** **localhost:10.0**
 - **LD_LIBRARY_PATH** **:/usr/local/qt6/lib/**
 - **XAUTHORITY** **/home/pi/.Xauthority**
 
-You need to replace **localhost:10.0** with what you got in above ssh session.
-![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/54e28040-fabd-41b0-8179-a4df4b629504)
-
-At this point, you can debug the application.
+![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/b4934a58-6db7-421e-a96e-36f7fe23aa85)
 
 ## Accelerate remote debug
 On **Edit** select **Preference**. Then goto **Debugger** select **GDB**. Uncheck **Use Automatic Symbol Cache**. In **Additional Startup Commands** append following code.
