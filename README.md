@@ -1,5 +1,5 @@
-# Debug Qt Widgets/Quick Application on RPI remotely with Qt Creator
-This page shows how to use Qt Creator to debug Qt Widgets Application remotely on rpi and how to accelerate debugging. 
+# Remote debugging Qt Widgets/Quick Application on RPI with Qt Creator
+This page shows how to use Qt Creator to debug Qt Widgets Application remotely on rpi and how to speed up debugging. 
 
 Click the follow image to view this tutorial on Youtube.
 
@@ -11,7 +11,28 @@ Under **Environment** section, click **Details** to expand the environment optio
 
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/b4934a58-6db7-421e-a96e-36f7fe23aa85)
 
-## Accelerate remote debug
+## Debugging with sudo permission
+If your debugging need to access peripherals, then you should unlock root account on rpi.
+```
+sudo passwd root
+sudo passwd --unlock root
+```
+
+```
+sudo nano /etc/ssh/sshd_config
+```
+
+![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/722a82a8-2afb-4f74-836f-2a380929f092)
+
+Goto **Projects**
+Under **Environment** section, click **Details** to expand the environment option. Add following variables:
+- **LD_LIBRARY_PATH** **:/usr/local/qt6/lib/**
+- **XAUTHORITY** **/root/.Xauthority**
+
+![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/cabee160-8ea1-4f60-b5a2-ccd3fdc1387b)
+
+
+## Speed up remote debugging
 On **Edit** select **Preference**. Then goto **Debugger** select **GDB**. Uncheck **Use Automatic Symbol Cache**. In **Additional Startup Commands** append following code.
 ```
 set solib-absolute-prefix /home/pmy/qt6/pi
