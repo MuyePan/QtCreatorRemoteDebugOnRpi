@@ -24,6 +24,9 @@ sudo nano /etc/ssh/sshd_config
 
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/722a82a8-2afb-4f74-836f-2a380929f092)
 
+Goto **Preference** input root in **Username**
+![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/33982cb8-2cf4-4cad-b102-297d38748175)
+
 Goto **Projects**
 Under **Environment** section, click **Details** to expand the environment option. Add following variables:
 - **LD_LIBRARY_PATH** **:/usr/local/qt6/lib/**
