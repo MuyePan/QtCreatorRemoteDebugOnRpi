@@ -24,7 +24,7 @@ sudo nano /etc/ssh/sshd_config
 
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/722a82a8-2afb-4f74-836f-2a380929f092)
 
-Goto **Edit** select **Preference**. On **Device** input root in **Username**.
+Goto **Edit** select **Preference**. On **Device** input root in **Username**. Deploy the public key to rpi.
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/33982cb8-2cf4-4cad-b102-297d38748175)
 
 Goto **Projects**
