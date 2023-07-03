@@ -3,6 +3,10 @@ This page shows how to remote debugging Qt Application on rpi and how to speed u
 
 Click the follow image to view this tutorial on Youtube.
 
+[![Youtube video link](https://i.ytimg.com/vi/QWz-4R4kMIo/hqdefault.jpg)](//youtu.be/QWz-4R4kMIo "Youtube Video")
+
+https://youtu.be/QWz-4R4kMIo
+
 ## Make debugging work
 Goto **Projects**
 Under **Environment** section, click **Details** to expand the environment option. Add following variables:
