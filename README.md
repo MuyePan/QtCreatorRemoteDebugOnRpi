@@ -1,5 +1,5 @@
-# Remote debugging Qt Widgets/Quick Application on RPI with Qt Creator
-This page shows how to use Qt Creator to debug Qt Widgets Application remotely on rpi and how to speed up debugging. 
+# Remote debugging Qt Application on RPI with Qt Creator
+This page shows how to remote debugging Qt Application on rpi and how to speed up debugging with Qt Creator. 
 
 Click the follow image to view this tutorial on Youtube.
 
