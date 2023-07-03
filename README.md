@@ -12,7 +12,7 @@ Under **Environment** section, click **Details** to expand the environment optio
 ![image](https://github.com/MuyePan/QtCreatorRemoteDebugOnRpi/assets/136073506/b4934a58-6db7-421e-a96e-36f7fe23aa85)
 
 ## Debugging with sudo permission
-If your debugging need to access peripherals, then you should unlock root account on rpi.
+If your debugging need to access peripherals, then you should unlock root account on rpi. Connecting rpi using SSH and run following commands. 
 ```
 sudo passwd root
 sudo passwd --unlock root
