@@ -46,4 +46,4 @@ set solib-absolute-prefix /home/pmy/qt6/pi
 for rpi step by step.
 
 ## Head file not found
-If you can compile the application but Qt Creator still tell you header file cannot be found. Upgrading Qt Creator to 11.0.0 later will fix this problem.
+If you can compile the application but Qt Creator still tells you that header files cannot be found. Upgrading Qt Creator to 11.0.0 later will fix this problem.
